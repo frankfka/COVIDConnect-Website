@@ -2,7 +2,7 @@ html {
   font-family: 'Oswald', sans-serif !important;
 }
 p, li, a {
-  font-weight: lighter !important;
+  font-weight: normal !important;
 }
 
 .fullwidth-section {
