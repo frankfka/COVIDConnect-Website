@@ -55,6 +55,11 @@ p, li, a {
   border-radius: 0;
   border: none;
 }
+.cta-btn:active {
+  background: #2f4d69;
+  border-radius: 0;
+  border: none;
+}
 
 .section-title {
   font-weight: bolder;
@@ -161,7 +166,7 @@ p, li, a {
 }
 @media (max-width: 992px) {
   #contact-content {
-    padding: 2em;
+    padding: 5em 2em;
   }
 }
 #contact-content {
