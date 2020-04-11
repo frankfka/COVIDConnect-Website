@@ -11,14 +11,29 @@ p, li, a {
   padding: 0 !important;
 }
 
+@media (min-width: 992px) {
+  p, li {
+    font-size: 1.2em;
+  }
+  .left-accent-border {
+    border-left: 3em solid #345474 !important;
+  }
+  .right-accent-border {
+    border-right: 3em solid #345474 !important;
+  }
+  .bottom-accent-border {
+    border-bottom: 3em solid #345474 !important;
+  }
+}
+
 .left-accent-border {
-  border-left: 3em solid #345474;
+  border-left: 1em solid #345474;
 }
 .right-accent-border {
-  border-right: 3em solid #345474;
+  border-right: 1em solid #345474;
 }
 .bottom-accent-border {
-  border-bottom: 3em solid #345474;
+  border-bottom: 1em solid #345474;
 }
 .accent-line {
   background: #345474;
@@ -61,14 +76,28 @@ p, li, a {
   padding: 4em 5%;
   color: white;
 }
+@media (min-width: 992px) {
+  #header-title {
+    font-size: 5em;
+  }
+  #header-subtitle {
+    font-size: 2em;
+  }
+}
+@media (max-width: 992px) {
+  #header-title {
+    font-size: 3em;
+  }
+  #header-subtitle {
+    font-size: 1.2em;
+  }
+}
 #header-title {
   font-weight: bolder;
   text-transform: uppercase;
-  font-size: 5em;
 }
 #header-subtitle {
   font-weight: lighter;
-  font-size: 2em;
   text-transform: uppercase;
 }
 
@@ -116,17 +145,32 @@ p, li, a {
   text-align: center;
   text-transform: uppercase;
 }
+.person-description {
+  font-size: 1em;
+}
 
 /* Contact */
 #contact-section {
   background: url("./img/contact_background.jpeg") no-repeat;
   background-size: cover;
 }
+@media (min-width: 992px) {
+  #contact-content {
+    padding: 5em;
+  }
+}
+@media (max-width: 992px) {
+  #contact-content {
+    padding: 2em;
+  }
+}
 #contact-content {
   width: 100%;
-  padding: 5em;
   color: white;
 }
 #contact-header {
   display: inline-block;
+}
+.contact-btn-container {
+  margin: auto;
 }
