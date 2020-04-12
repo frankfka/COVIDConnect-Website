@@ -46,17 +46,35 @@ p, li, a {
 }
 
 .cta-btn {
-  background: #345474;
+  background: #345474 !important;
   border-radius: 0;
   border: none;
 }
 .cta-btn:hover {
-  background: #2f4d69;
+  background: #2f4d69 !important;
   border-radius: 0;
   border: none;
 }
 .cta-btn:active {
-  background: #2f4d69;
+  background: #2f4d69 !important;
+  border-radius: 0;
+  border: none;
+}
+.cta-btn-light {
+  background: white !important;
+  color: #345474;
+  border-radius: 0;
+  border: none;
+}
+.cta-btn-light:hover {
+  background: lightgray !important;
+  color: #345474;
+  border-radius: 0;
+  border: none;
+}
+.cta-btn-light:active {
+  background: lightgray !important;
+  color: #345474;
   border-radius: 0;
   border: none;
 }
@@ -65,6 +83,22 @@ p, li, a {
   font-weight: bolder;
   font-size: 3em;
   text-transform: uppercase;
+}
+
+/* Nav Bar */
+#navbar-logo {
+  width: 46px;
+  height: 46px;
+}
+.navbar {
+  padding: 1em;
+  background-color: #345474 !important;
+}
+#collapsed-navbar {
+  text-align: center;
+}
+#nav-donate-btn {
+  font-size: 1.2em;
 }
 
 /* Header */
