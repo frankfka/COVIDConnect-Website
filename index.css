@@ -62,21 +62,39 @@ p, li, a {
 }
 .cta-btn-light {
   background: white !important;
-  color: #345474;
+  color: #345474 !important;
   border-radius: 0;
-  border: none;
+  border: 1px solid white !important;
 }
 .cta-btn-light:hover {
-  background: lightgray !important;
-  color: #345474;
+  background: white !important;
+  color: #345474 !important;
   border-radius: 0;
-  border: none;
+  border: 1px solid white !important;
 }
 .cta-btn-light:active {
-  background: lightgray !important;
-  color: #345474;
+  background: white !important;
+  color: #345474 !important;
   border-radius: 0;
-  border: none;
+  border: 1px solid white !important;
+}
+.cta-bordered-btn-light {
+  color: white !important;
+  background-color: #345474 !important;
+  border-radius: 0;
+  border: 1px solid white !important;
+}
+.cta-bordered-btn-light:hover {
+  background: white !important;
+  color: #345474 !important;
+  border-radius: 0;
+  border: 1px solid white !important;
+}
+.cta-bordered-btn-light:active {
+  background: white !important;
+  color: #345474 !important;
+  border-radius: 0;
+  border: 1px solid white !important;
 }
 
 .section-title {
@@ -90,15 +108,17 @@ p, li, a {
   width: 46px;
   height: 46px;
 }
+.navbar-brand {
+  font-weight: bolder !important;
+  text-transform: uppercase;
+}
 .navbar {
-  padding: 1em;
+  padding: 1em 2em;
   background-color: #345474 !important;
 }
-#collapsed-navbar {
+.nav-btn {
   text-align: center;
-}
-#nav-donate-btn {
-  font-size: 1.2em;
+  font-size: 1em !important;
 }
 
 /* Header */
@@ -190,7 +210,8 @@ p, li, a {
 
 /* Contact */
 #contact-section {
-  background: url("./img/contact_background.jpeg") no-repeat;
+  /*background: url("./img/contact_background.jpeg") no-repeat;*/
+  background-color: white;
   background-size: cover;
 }
 @media (min-width: 992px) {
@@ -205,7 +226,7 @@ p, li, a {
 }
 #contact-content {
   width: 100%;
-  color: white;
+  /*color: white;*/
 }
 #contact-header {
   display: inline-block;
