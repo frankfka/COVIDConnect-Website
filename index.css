@@ -179,6 +179,22 @@ p, li, a {
   max-width: 60%;
 }
 
+/* Donors */
+#donor-content {
+  width: 100%;
+  padding: 2em;
+}
+.donor-item {
+  text-align: center;
+}
+.donor-img {
+  max-width: 80%;
+  object-fit: contain;
+}
+#donor-images {
+  padding: 0 10%;
+}
+
 /* Team */
 #team-content {
   width: 100%;
@@ -210,8 +226,8 @@ p, li, a {
 
 /* Contact */
 #contact-section {
-  /*background: url("./img/contact_background.jpeg") no-repeat;*/
-  background-color: white;
+  background: url("./img/contact_background.jpeg") no-repeat;
+  /*background-color: white;*/
   background-size: cover;
 }
 @media (min-width: 992px) {
@@ -226,7 +242,7 @@ p, li, a {
 }
 #contact-content {
   width: 100%;
-  /*color: white;*/
+  color: white;
 }
 #contact-header {
   display: inline-block;
