@@ -189,7 +189,7 @@ p, li, a {
 }
 .facility-item {
   text-align: center;
-  margin: 1em auto;
+  margin: 2em auto;
 }
 .facility-img {
   max-width: 80%;
@@ -203,6 +203,7 @@ p, li, a {
 }
 .donor-item {
   text-align: center;
+  margin: 1em auto;
 }
 .donor-img {
   max-width: 80%;
@@ -210,6 +211,9 @@ p, li, a {
 }
 #donor-images {
   padding: 0 10%;
+}
+#individual-donor-text {
+  margin-top: 2em;
 }
 
 /* Team */
