@@ -1,8 +1,11 @@
 html {
-  font-family: 'Oswald', sans-serif !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+body {
+  font-family: 'Raleway', sans-serif !important;
 }
 p, li, a {
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 
 .fullwidth-section {
