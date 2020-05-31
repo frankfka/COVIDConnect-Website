@@ -162,6 +162,14 @@ p, li, a {
   font-weight: lighter;
   text-transform: uppercase;
 }
+#header-social-icons {
+  margin: 1em auto;
+}
+.social-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
 
 /* Mission */
 #mission-content {
